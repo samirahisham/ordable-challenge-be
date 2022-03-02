@@ -32,7 +32,7 @@ STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 MEDIA_URL = '/media/'
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 AUTH_USER_MODEL = "user.User"
 
@@ -40,7 +40,7 @@ ALLOWED_HOSTS = ["127.0.0.1","localhost","orable-driver-be.herokuapp.com" ]
 CORS_ORIGIN_WHITELIST = [
 "http://127.0.0.1",
 "http://localhost",
-"http://localhost:3000"
+"http://localhost:3000","orable-driver-be.herokuapp.com"
 ]
 
 
