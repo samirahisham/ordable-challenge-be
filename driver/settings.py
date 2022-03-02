@@ -42,7 +42,8 @@ CSRF_TRUSTED_ORIGINS=["https://orable-driver-be.herokuapp.com"]
 CORS_ORIGIN_WHITELIST = [
 "http://127.0.0.1",
 "http://localhost",
-"http://localhost:3000","https://orable-driver-be.herokuapp.com"
+"http://localhost:3000","https://orable-driver-be.herokuapp.com",
+"https://ordable-challenge-fe.netlify.app"
 ]
 
 
