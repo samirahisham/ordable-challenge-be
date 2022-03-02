@@ -36,7 +36,7 @@ DEBUG = False
 
 AUTH_USER_MODEL = "user.User"
 
-ALLOWED_HOSTS = ["127.0.0.1","localhost", ]
+ALLOWED_HOSTS = ["127.0.0.1","localhost","orable-driver-be.herokuapp.com" ]
 CORS_ORIGIN_WHITELIST = [
 "http://127.0.0.1",
 "http://localhost",
