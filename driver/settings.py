@@ -32,9 +32,6 @@ MEDIA_URL = '/media/'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-import django_heroku
-django_heroku.settings(locals())
-
 AUTH_USER_MODEL = "user.User"
 
 ALLOWED_HOSTS = ["127.0.0.1","localhost", ]
